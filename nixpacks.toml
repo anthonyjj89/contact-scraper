@@ -5,7 +5,7 @@ command = "npm install --production"
 command = "node server.js"
 
 [phases.setup]
-nixPackages = ["nodejs-20.x", "mongodb"]
+nixPackages = ["nodejs", "mongodb"]
 
 [phases.build]
 nixPackages = []
