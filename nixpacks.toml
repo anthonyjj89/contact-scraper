@@ -1,0 +1,11 @@
+[build]
+command = "npm install --production"
+
+[start]
+command = "node server.js"
+
+[phases.setup]
+nixPackages = ["nodejs-20.x", "mongodb-6.0"]
+
+[phases.build]
+nixPackages = ["python3"]
