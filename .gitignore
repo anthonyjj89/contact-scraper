@@ -1,0 +1,17 @@
+# Sensitive data
+/config/*
+!/config/example_credentials.yaml
+/data/raw/
+.env
+*.log
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editors
+.vscode/
+.idea/
